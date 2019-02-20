@@ -1,0 +1,19 @@
+<div id="divPrintQuantity">
+  <div class="input-group">
+      <span class="input-group-addon input-sm" (click)="decreaseQuantity()" >
+          <i class="glyphicon glyphicon-minus"></i>
+      </span>
+      <input class="form-control input-sm" value="{{quantity}}" 
+          [min]="quantityMin" [max]="quantityMax" [(ngModel)]="quantity" maxlength="4" 
+          (input)="updateQuantities()"
+          (keyup)="updateQuantities()"
+          (keypress)="updateQuantities()"
+          (focusout)="updateQuantities()"
+          (blur)="updateQuantities()"
+          type="number" required />
+      <span class="input-group-addon input-sm" (click)="increaseQuantity()">
+          <i class="glyphicon glyphicon-plus"></i>
+      </span>
+  </div>
+</div>
+

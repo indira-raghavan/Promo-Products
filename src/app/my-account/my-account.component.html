@@ -1,0 +1,18 @@
+<button type="button" class="btn btn-default" (click)="showAccountInfoClicked()"> My Account 
+  <span class="fa fa-caret-left"></span> 
+</button>
+<div *ngIf="showAccountInfo">
+  <h1>
+    Welcome {{this.accountInfo.name}}
+  </h1>
+
+  <h2>
+    Your Account Information
+  </h2>
+
+  <div>
+    <div>Name: {{this.accountInfo.name}}</div>
+    <div>Email: {{this.accountInfo.emailId}}</div>
+    <div>DateOfBirth: {{this.accountInfo.dateOfBirth}}</div>
+  </div>
+</div>

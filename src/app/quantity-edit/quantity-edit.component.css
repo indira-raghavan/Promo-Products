@@ -1,0 +1,65 @@
+.input-group
+{
+    max-width: 300px;    
+    
+}
+
+.input-sm
+{
+    height: 25px;
+    padding: 7px 14px !important;        
+}
+
+.input-group span
+{
+    background-color: #05b3bc;
+    color: #fff;
+   
+}
+.input-group span:hover
+{
+    background-color: rgba(5, 179, 188, 0.6);
+}
+
+span.input-group-addon
+{
+    cursor: pointer;
+    
+}
+
+.input-group .form-control:first-child, 
+.input-group-addon:first-child, 
+.input-group-btn:first-child>.btn, 
+.input-group-btn:first-child>.btn-group>.btn, 
+.input-group-btn:first-child>.dropdown-toggle, 
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn, 
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle)
+{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.input-group .form-control:last-child, 
+.input-group-addon:last-child, 
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn, 
+.input-group-btn:first-child>.btn:not(:first-child), 
+.input-group-btn:last-child>.btn, 
+.input-group-btn:last-child>.btn-group>.btn, 
+.input-group-btn:last-child>.dropdown-toggle
+{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+input {
+    text-align: center;
+}
+
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
