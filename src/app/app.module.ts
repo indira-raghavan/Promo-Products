@@ -11,6 +11,8 @@ import { BackComponent } from './back/back.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { QuantityEditComponent } from './quantity-edit/quantity-edit.component';
+import { SocialMediaCardComponent } from './social-media-card/social-media-card.component';
+import { UploadPhotosComponentComponent } from './upload-photos-component/upload-photos-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,8 @@ import { QuantityEditComponent } from './quantity-edit/quantity-edit.component';
     ProductDescriptionComponent,
     MyAccountComponent,
     QuantityEditComponent,
+    SocialMediaCardComponent,
+    UploadPhotosComponentComponent,
     
   ],
   imports: [

@@ -4,7 +4,7 @@
           <i class="glyphicon glyphicon-minus"></i>
       </span>
       <input class="form-control input-sm" value="{{quantity}}" 
-          [min]="quantityMin" [max]="quantityMax" [(ngModel)]="quantity" maxlength="4" 
+          [min]="quantityMin" [max]="quantityMax" [(ngModel)]="currentQuantity" maxlength="4" 
           (input)="updateQuantities()"
           (keyup)="updateQuantities()"
           (keypress)="updateQuantities()"

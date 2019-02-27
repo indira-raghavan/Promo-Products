@@ -1,0 +1,7 @@
+<button type="button" class="btn btn-default" (click)="showUploadPhotoComponentClicked()"> Upload Photos 
+  <span class="fa fa-caret-left"></span> 
+</button>
+
+<div *ngIf="showUploadPhotoComponent" class="uploadPhoto">
+  <app-social-media-card></app-social-media-card>
+</div>

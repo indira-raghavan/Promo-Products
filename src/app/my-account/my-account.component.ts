@@ -4,7 +4,8 @@ import { AccountInfo } from '../AccountInfo';
 @Component({
   selector: 'app-my-account',
   templateUrl: './my-account.component.html',
-  styleUrls: ['./my-account.component.css']
+  styleUrls: ['./my-account.component.css'],
+  styles: ['./my-account.component.css']
 })
 export class MyAccountComponent implements OnInit {
     @Input() accountInfo : AccountInfo;

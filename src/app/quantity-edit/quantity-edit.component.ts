@@ -12,7 +12,7 @@ export class QuantityEditComponent implements OnInit {
     quantity: number;
 
     @Input() currentQuantity: number;
-
+    
     @Output('onQuantityChangeEvent') onQuantityChangeEvent = new EventEmitter<number>();
 
   constructor() { 
