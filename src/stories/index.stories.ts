@@ -29,17 +29,9 @@ storiesOf('Quantity Edit', module)
   props:{
   },
 }))
-
-.add('With Current Quantity', () => ({
-  component: QuantityEditComponent,  
-  props:{
-    onQuantityChangeEvent: (event) => {      
-      console.log(event);
-    } 
-  }
- })) 
+ 
  .addDecorator(withNotes)
- .add('With Notes', () => ({
+ .add('With Action Logger', () => ({
   component: QuantityEditComponent,
   props:{
     onQuantityChangeEvent: action('Quantity was changed'),

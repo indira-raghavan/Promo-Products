@@ -10,6 +10,8 @@ import { AccountInfo } from '../AccountInfo';
 export class ProductBuilderComponent implements OnInit {
   @Input() promoProduct : PromoProduct
 
+  uploadedFilesList: FileList;
+
   accountInfo: AccountInfo;
   showAccountInfoComponent: boolean;
 
@@ -21,7 +23,7 @@ export class ProductBuilderComponent implements OnInit {
       this.accountInfo.name = "Indira";
       this.accountInfo.emailId = "Indira.Raghavan@Staples.ca";
       this.accountInfo.dateOfBirth = "16-11-1986";
-    }
-  } 
+    }    
 
+  } 
 }

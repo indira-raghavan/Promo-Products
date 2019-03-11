@@ -1,0 +1,16 @@
+<button type="button" class="btn btn-default" (click)="showUploadedImagesPreview()"> Preview Uploaded Images   
+</button>
+
+
+<div *ngIf = "showUploadedImages" style="height: 99%; width: 99%; min-height:110px; max-height: 220px;
+            margin: 3px; overflow: auto;">
+
+<div class="cursorPointer">
+      <button type="button" class="btn btn-default" (click)="showUploadedImagesPreview()"> My Files   
+         </button></div>
+
+<div id="divShowUploadedImages"
+   style="border:none; margin: 3px; height: 99%; width: 99%; min-height:100px; max-height: 210px;">
+</div>
+
+</div>

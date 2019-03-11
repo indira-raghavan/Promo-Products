@@ -13,6 +13,7 @@ import { MyAccountComponent } from './my-account/my-account.component';
 import { QuantityEditComponent } from './quantity-edit/quantity-edit.component';
 import { SocialMediaCardComponent } from './social-media-card/social-media-card.component';
 import { UploadPhotosComponentComponent } from './upload-photos-component/upload-photos-component.component';
+import { PreviewUploadImageComponent } from './preview-upload-image/preview-upload-image.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { UploadPhotosComponentComponent } from './upload-photos-component/upload
     QuantityEditComponent,
     SocialMediaCardComponent,
     UploadPhotosComponentComponent,
+    PreviewUploadImageComponent,
     
   ],
   imports: [
